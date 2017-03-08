@@ -7,7 +7,7 @@
 
 #ifndef UART_H_
 #define UART_H_
-#include "lsm303d.h"
+#include <lsm6ds0.h>
 
 void uart_start_periph();
 

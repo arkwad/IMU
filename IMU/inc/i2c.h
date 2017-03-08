@@ -8,7 +8,7 @@
 #ifndef I2C_H_
 #define I2C_H_
 
-#include "lsm303d.h"
+#include <lsm6ds0.h>
 
 void i2c_run_periph(I2C_TypeDef * slot);
 void i2c_send_data(uint8_t address, const uint8_t * data, uint8_t data_length );
